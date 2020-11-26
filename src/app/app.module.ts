@@ -7,12 +7,14 @@ import { LogoComponent } from './logo/logo.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ButtonDestinationComponent } from './shared/button-destination/button-destination.component';
 import { TicketsComponent } from './views/tickets/tickets.component';
+import { TicketComponent } from './shared/ticket/ticket.component';
 @NgModule({
   declarations: [
     AppComponent,
     LogoComponent,
     ButtonDestinationComponent,
-    TicketsComponent
+    TicketsComponent,
+    TicketComponent
   ],
   imports: [
     BrowserModule,

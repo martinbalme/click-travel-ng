@@ -1,7 +1,1 @@
-<div *ngFor="let ticket of tickets" class="backticket">
-    {{ticket.class}}<br>
-    {{ticket.flight}}<br>
-    {{ticket.from}}<br>
-    {{ticket.passenger}}<br>
-    <hr>
-</div>
+<app-ticket *ngFor="let ticket of tickets" [ticket]="ticket"></app-ticket>
